@@ -11,7 +11,7 @@ The dialog is an Activity. It just returns you the path to the file that user ha
 
 The dialog is created like this:
 
-Intent intent = new Intent(getBaseContext(), FileDialog.class);
+                Intent intent = new Intent(getBaseContext(), FileDialog.class);
                 intent.putExtra(FileDialog.START_PATH, "/sdcard");
                 
                 //can user select directories or not
